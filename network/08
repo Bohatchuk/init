@@ -1,0 +1,10 @@
+1) command:
+dig slash16.org
+
+2) in the category "ANSWER SECTION", column 5, find IPs of servers
+
+3) command:
+whois <Name Server>
+
+4) in the category "Registrar" find the name of the provider
+

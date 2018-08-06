@@ -1,0 +1,3 @@
+#!/bin/sh/
+
+sudo du -sh /* | sort -h

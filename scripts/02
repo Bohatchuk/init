@@ -1,0 +1,4 @@
+#!/bin/sh/
+
+echo "0 4 * * 5 sudo apt-get update && sudo apt-get upgrade > sudo /var/log/update_script.log" > schedule
+crontab schedule

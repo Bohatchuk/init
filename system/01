@@ -1,0 +1,11 @@
+1) to read the content of the file /etc/issue, for example with the command:
+cat /etc/issue
+
+2) to read the content of the file /etc/debian_version, command:
+cat /etc/debian_version
+
+3) command:
+hostnamectl
+
+4) to read the content of the file /etc/os-release, command:
+cat /etc/os-release

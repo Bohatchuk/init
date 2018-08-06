@@ -1,0 +1,1 @@
+ipconfig getifaddr $(networksetup -listallhardwareports | awk '/Hardware Port: Ethernet/{getline; print $2}')

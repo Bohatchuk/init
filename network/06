@@ -1,0 +1,7 @@
+1) find / -name resolv.conf > ./path
+
+	this command will write the name of the file into the file named "path"
+	
+2) cat -e ./path
+
+	this command will display the content of the file named "path", which contains the full path of the required file

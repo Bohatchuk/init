@@ -1,0 +1,9 @@
+1) name of the service --> crontab 
+
+2) open crontab.file in editor (for example, vim) with the command 
+crontab -e, then choose vim by pressing "2"
+
+3) then add a new task due the instruction in the file:
+minute(0-59) hour(0-23) day(1-31) month(1-12) weekday(0-6) command
+
+4) save changes

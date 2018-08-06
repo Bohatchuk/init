@@ -1,0 +1,10 @@
+crontab -l > curcronfile
+echo "0 0 * * * \
+		MD1=\"\$(md5sum /etc/crontab | awk '{ print \$1 }')\" && \
+		MD2=\"\$(cat /etc/crontab.log 2>/dev/null)\" && \
+		if [ '\$MD1' != '\$MD2' ] ; then \
+			md5sum /etc/crontab | awk '{ print \$1 }' > /etc/crontab.log && \
+			echo \"/etc/crontab was modified \$(date)\" | mail -s \"/etc/crontab modified\" root@gmail.com ; \
+		fi" >> curcronfile
+sudo crontab curcronfile
+rm cronfile

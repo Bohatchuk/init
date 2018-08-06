@@ -1,0 +1,5 @@
+command:
+
+echo "46.19.122.85 intra.42.fr" >> /etc/hosts
+
+it will add the entry between quotes to the file that maps hostnames to IP addresses 

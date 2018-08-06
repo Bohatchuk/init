@@ -1,0 +1,6 @@
+1) command:
+cat /etc/ssh/sshd_config
+
+2) in line "#AuthorizedKeysFile" we can find name of the file:
+--> .ssh/authorized_keys
+--> .ssh/authorized_keys2

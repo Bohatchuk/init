@@ -1,0 +1,5 @@
+1) when we've done such commands as "nslookup slash16.org" or "dig slash16.org", we've founded out our server, which is 10.51.1.253
+
+2) then, using command "nslookup 10.51.1.253", we can find out the name of the server, which is ns1.unit.ua
+
+3) prefix "ns1" means that this is primary server, DNS type
